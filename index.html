@@ -4,21 +4,38 @@
         <meta charset="utf-8">
         <title>Туристическое агенство Алые Паруса</title>
         <style>
-            ul {
-                list-style: none;
+            html, body {
+                margin: 0; /* Убираем отступы для всего документа */
             }
-            ul li {
-                display: inline;
+           /* Стили меню */
+            .menu {
+                background: black; /* Цвет фона */
+                color: white; /* Цвет текста */
+                height: 100px; /* Высота */
+            }
+            .menu h1 {
+                margin: 0; /* Отступы */
+                float: left; /* Расположение слева */
+            }
+            .menu ul {
+                margin: 0;
+                float: right;
+                list-style: none; /* Стиль маркеров */
+            }
+            .menu ul li {
+                display: inline; /* Расположить в линию */
             }
         </style>
     </head>
     <body>
+    <div class="menu">
         <h1>Алые Паруса</h1>
-    <ul>
-        <li>Главная</li>
-        <li>Блог</li>
-        <li>Контакты</li>
-    </ul>
+        <ul>
+            <li>Главная</li>
+            <li>Блог</li>
+            <li>Контакты</li>
+        </ul>
+    </div>
         <div>
             <h1>Привет</h1>
             <img width="100px" height="100px" alt="Картинка" />
