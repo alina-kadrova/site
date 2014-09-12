@@ -7,6 +7,13 @@
             html, body {
                 margin: 0; /* Убираем отступы для всего документа */
             }
+            
+   body {
+    background-image: url(images/bg.jpg); /* Путь к фоновому изображению */
+    background-color: #c7b39b; /* Цвет фона */
+      background-size: cover; /* Масштабируем фон */
+   }
+  
            /* Стили меню */
             .menu {
                 background: black; /* Цвет фона */
@@ -25,21 +32,32 @@
             .menu ul li {
                 display: inline; /* Расположить в линию */
             }
+            .content {
+                width: 80%;
+                margin: 50px auto;
+                background: white;
+                    
+            }
         </style>
     </head>
     <body>
-    <div class="menu">
-        <h1>Алые Паруса</h1>
-        <ul>
-            <li>Главная</li>
-            <li>Блог</li>
-            <li>Контакты</li>
-        </ul>
-    </div>
-        <div>
+        
+        <!-- Меню -->
+        <div class="menu">
+            <h1>Алые Паруса</h1>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        
+        <!-- Главный блог -->
+        <div class="content"> 
             <h1>Привет</h1>
-            <img width="100px" height="100px" alt="Картинка" />
+            <img width="100px" height="100px" alt="Картинка" src="images/sea.jpg"/>
             <p>Здесь будет текст</p>
         </div>
+        
     </body>
 </html>
