@@ -1,0 +1,50 @@
+html, body {
+    margin: 0; /* Убираем отступы для всего документа */
+}
+
+body {
+background-image: url(images/bg.jpg); /* Путь к фоновому изображению */
+background-color: #c7b39b; /* Цвет фона */
+  background-size: cover; /* Масштабируем фон */
+}
+
+/* Стили меню */
+.menu {
+    background: #333; /* Цвет фона */
+    color: white; /* Цвет текста */
+    height: 39px; /* Высота */
+}
+.menu h1 {
+    margin: 0; /* Отступы */
+    float: left; /* Расположение слева */
+}
+.menu ul {
+    margin: 0; /* Отключем внешние отступы */
+    list-style: none; /* Стиль маркеров */
+    padding: 0; /* Отключем внутрение отступы */
+    float: right; /* Расположение справа */
+}
+
+.menu ul li {
+    display: inline; /* Расположить в линию */
+}
+
+.menu ul li a{
+    float: left; 
+    text-decoration: none; 
+    color: white; 
+    padding: 10.5px 11px;
+    background-color: #333; 
+}
+.menu ul li a:hover{
+   color: #fff;
+   background-color:#0b75b2;
+   }
+
+
+.content {
+    width: 80%;
+    margin: 50px auto;
+    background: white;
+
+}
