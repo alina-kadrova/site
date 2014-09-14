@@ -16,9 +16,9 @@
   
            /* Стили меню */
             .menu {
-                background: black; /* Цвет фона */
+                background: #333; /* Цвет фона */
                 color: white; /* Цвет текста */
-                height: 100px; /* Высота */
+                height: 39px; /* Высота */
             }
             .menu h1 {
                 margin: 0; /* Отступы */
@@ -26,12 +26,27 @@
             }
             .menu ul {
                 margin: 0;
-                float: right;
                 list-style: none; /* Стиль маркеров */
-            }
+                padding: 0;
+	            float: right;}
+            
             .menu ul li {
                 display: inline; /* Расположить в линию */
             }
+            
+            .menu ul li a{
+                float: left; 
+                text-decoration: none;
+                color: white; 
+                padding: 10.5px 11px;
+                background-color: #333; 
+            }
+            .menu ul li a:hover{
+	           color: #fff;
+	           background-color:#0b75b2;
+               }
+         
+
             .content {
                 width: 80%;
                 margin: 50px auto;
